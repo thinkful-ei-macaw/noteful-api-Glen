@@ -33,15 +33,15 @@ class AddFolder extends React.Component {
     }
 
 
-    // handleSubmit = e => {
-    //     e.preventDefault();
-    //     this.context.addFolders(this.state.value);
-    //     this.setState({
-    //         value: ''
-    //     })
+    handleSubmit = e => {
+        e.preventDefault();
+        this.context.addFolders(this.state.value);
+        this.setState({
+            value: ''
+        })
 
 
-    // }
+    }
 
     render() {
 
